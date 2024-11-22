@@ -1,0 +1,23 @@
+:root {
+  --text-blue: #252b42;
+  --text-gray: #797979;
+  --button-blue: #2091F9;
+  --blue-bg: #252B42;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mons;
+}
+html, body, :root{
+  height: 100%;
+}
+@font-face {
+  font-family: Inter;
+  src: url(../src/styles/Inter-VariableFont_opsz\,wght\ —\ копия.ttf);
+}
+@font-face {
+  font-family: Mons;
+  src: url(../src/styles/Montserrat-VariableFont_wght\ —\ копия.ttf);
+}
