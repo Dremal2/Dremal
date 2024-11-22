@@ -1,0 +1,186 @@
+﻿.pricing{
+    background-color: #000;
+    color: white;
+    padding: 100px 0;
+}
+.pricing-title{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.pricing-subtitle{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+.pricing-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 150px;
+    gap: 80px;        
+}
+.pricing-grid-item{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(45, 44, 45);
+}
+.pricing-grid-item-title{
+    text-align: center;
+    color: #fff;
+}
+.pricing-grid-item-paragraph{
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.pricing-grid-item-price-wrapper{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pricing-grid-item-price{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;   
+}
+.pricing-grid-item-price-child-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.pricing-grid-item-price-child-dollar-sign{
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+.pricing-grid-item-price-child-span-text{
+    color: #fff;
+}
+.pricing-grid-item-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.pricing-grid-item-button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.pricing-grid-item-button:hover{
+    color: #fff;
+    background-color: #4a4444;
+    transition: 1.5s ease;
+}
+
+.pricing-grid-item-button:not(:hover){
+    transition: 1s ease;
+    background-color: hsl(260, 4%, 31%);
+}
+.pricing-grid-item-button:active{
+    background-color: hsl(260, 4%, 31%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(176, 170, 186) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+.pricing-grid-item-middle{
+    padding: 30px;
+    background-color: #535151;
+    border-radius: 10px;
+}
+.pricing-grid-item-title-middle{
+    text-align: center;
+    color: #fff;
+}
+.pricing-grid-item-paragraph-middle{
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+}
+.pricing-grid-item-price-wrapper-middle{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pricing-grid-item-price-middle{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+.pricing-grid-item-price-child-wrapper-middle{
+    display: flex;
+    flex-direction: column;
+}
+.pricing-grid-item-price-child-dollar-sign-middle{
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+.pricing-grid-item-price-child-span-text-middle{
+    color: #fff;
+}
+.pricing-grid-item-ul-middle{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+.pricing-grid-item-button-middle{
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.pricing-grid-item-button-middle:not(:hover){
+    transition: 1s ease;
+    background-color: hsl(260, 4%, 31%);
+}
+.pricing-grid-item-button-middle:active{
+    background-color: hsl(260, 4%, 31%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(176, 170, 186) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+@media screen and (max-width: 798px) {
+    .pricing{
+        padding:  50px 0;
+    }
+    .pricing-title{
+        font-size: 35px;
+    }
+    .pricing-grid{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+        gap: 80px;
+    }
+}

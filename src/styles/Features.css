@@ -1,0 +1,104 @@
+﻿.features{
+    min-height: 100vh;
+/*     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(35, 21, 71, 1) 38%, rgba(62, 15, 74, 1) 92%);
+ */
+    background: #000;
+    padding-bottom: 100px;
+}
+.features-title{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.features-subtitle{
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+.features-grid{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 200px;
+    gap: 40px;
+}
+.featured-grid-item{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.featured-grid-item img{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-grid-item h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.features-grid-item-title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    max-width: 200px;
+    color: #fff;
+}
+.features-grid-item-parahraph{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.features-meetings-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-meetings-img-wrapper img{
+    margin-top: 100px;
+    max-width: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888;
+    filter: brightness(80%);
+}
+
+@media screen and (max-width: 798px) {
+    .features-title{
+        font-size: 35px;
+        padding: 0;
+        padding-top: 30px;
+    }   
+    .features-grid{
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+    .features-grid-item-title{
+        margin-top: 10px;
+    }
+    .features-grid-item-parahraph{
+        margin-top: 15px;
+        text-align: center;
+        max-width: 350px;
+    }
+    .features-meetings-img-wrapper{
+        padding: 0 10px;
+    }
+    .features-meetings-img{
+        max-width: 100%;
+        box-shadow: 5px 5px 10px #888;
+    }
+    .featured-grid-item{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

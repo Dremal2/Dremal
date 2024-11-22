@@ -1,0 +1,77 @@
+﻿.hero-bg{
+    height: 100vh;
+/*     background-image: url(../assets/images/backgr2.jpg);
+ */ 
+/*     background: #e1d8d8; */
+background: #fff;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.hero-bg h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Mons;
+    color: #000000;
+}
+.hero-bg h2{
+    font-size: 30px;
+    
+    color: #000000;
+    font-family: Mons;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.hero-bg button{
+    margin-top: 60px;
+    padding: 10px 20px;
+    border-radius: 100px;   
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: color 0.3s;
+
+
+    box-shadow: rgba(14, 14, 14, 0.05) 0 0 8px;
+
+}
+.hero-bg button:hover{
+    scale: 1.8;
+    transition: 1s ease;
+    background-color:hsl(262, 12%, 70%);
+    transform: translateY(5px);
+    background-color: hsl(260, 3%, 35%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(185, 181, 195) 0px 7px 29px 0px;
+}
+.hero-bg button:not(:hover){
+    scale: 1.8;
+    transition: 1s ease;
+    background-color: hsl(260, 4%, 31%);
+}
+.hero-bg button:active{
+    background-color: hsl(260, 4%, 31%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(176, 170, 186) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+@media screen and (max-width: 798px){
+    .hero-bg h1{
+        font-size: 30px;
+    }
+    .hero-bg h2{
+        font-size: 15px;
+    }
+    .hero-bg button{
+        height: 10px;
+        align-items: center;
+        display: flex;
+        width: auto;
+        font-size: 10px;
+    }
+}
